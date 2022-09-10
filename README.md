@@ -23,3 +23,7 @@ Previously known as Google of Greater China Test for New Grads of 2014
 ### [Round B](2013/Round%20B%202013)
 
 - [Problem A. Sudoku Checker](2013/Round%20B%202013/Problem%20A)
+- [Sudoku Checker](2013/Round%20B%202013/Sudoku%20Checker)
+- [Ignore all my comments](2013/Round%20B%202013/Ignore%20all%20my%20comments)
+- [Dragon Maze](2013/Round%20B%202013/Dragon%20Maze)
+- [Meet and party](2013/Round%20B%202013/Meet%20and%20party)
