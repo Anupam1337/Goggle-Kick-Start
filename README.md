@@ -2,6 +2,14 @@
 
 # [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart)
 
+<details open>
+    <summary>Git gist highlights</summary>
+    <ul>
+        <li>Using badges</li>
+        <li>Nested lists</li>
+    </ul>
+</details>
+
 ## [2013](2013)
 
 Previously known as Google of Greater China Test for New Grads of 2014
