@@ -34,7 +34,7 @@ case number (starting from 1) and θ is in degrees up from the the horizontal.
 If there are several possible answers, output the smallest positive one.
 
 An answer will be considered correct if it is within 10\ :sup:`-6` of the exact
-answer, in absolute or relative error. See the FAQ_ [sic] for an explanation of
+answer, in absolute or relative error. See the FAQ_ for an explanation of
 what that means, and what formats of floating-point numbers we accept.
 
 .. _FAQ: https://codingcompetitions.withgoogle.com/codejam/faq.html#floating_point
@@ -53,7 +53,7 @@ Sample
 
 ::
 
-    Input       Output
+    Sample Input       Sample Output
 
     3
     98 980      Case #1: 45.0000000
