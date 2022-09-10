@@ -2,23 +2,23 @@
 using namespace std;
 
 int main() {
-    int T, N, ans;
+    int T, N, y;
     string mx, S;
     getline(cin, S);
     T = stoi(S);
     
-    for(int t = 1; t <= T; t++) {
+    for(int x = 1; x <= T; x++) {
         getline(cin, S);
         N = stoi(S);
-        ans = 0;
+        y = 0;
 
         for(int i = 0; i < N; i++) {
             getline(cin, S);
             if((i == 0) || (S >= mx)) mx = S;
-            else ans++;
+            else y++;
         }
 
-        cout << "Case #" << t << ": " << ans << endl;
+        cout << "Case #" << x << ": " << y << endl;
     }
     return 0;
 }

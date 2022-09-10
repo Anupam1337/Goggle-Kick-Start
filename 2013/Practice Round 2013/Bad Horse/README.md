@@ -3,6 +3,6 @@
 ## [Problem](PROBLEM.rst)
 
 ## Solution
-[CPP](Bad Horse.cpp) <br />
+[CPP](Solution.cpp) <br />
 [JAVA](Solution.java) <br />
-[PYTHON](Bad Horse.py) <br />
+[PYTHON](Solution.py) <br />

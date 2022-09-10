@@ -7,8 +7,8 @@ public class Solution {
         int T;
         T = sc.nextInt();
         
-        for(int t = 1; t <= T; t++) {
-            double V, D, g = 9.8, PI = 3.14159265359, ans = 0;
+        for(int x = 1; x <= T; x++) {
+            double V, D, g = 9.8, PI = 3.14159265359, y = 0;
 
             V = sc.nextInt();
             D = sc.nextInt();
@@ -17,9 +17,9 @@ public class Solution {
             if(val > 1) val = 1;
             else if(val < -1) val = -1;
 
-            ans = 90 * Math.asin(val) / PI;
+            y = 90 * Math.asin(val) / PI;
             
-            System.out.println("Case #" + t + ": " + ans);
+            System.out.println("Case #" + x + ": " + y);
         }
         
         sc.close();

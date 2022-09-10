@@ -3,6 +3,6 @@
 ## [Problem](PROBLEM.rst)
 
 ## Solution
-[CPP](Moist.cpp) <br />
+[CPP](Solution.cpp) <br />
 [JAVA](Solution.java) <br />
-[PYTHON](Moist.py) <br />
+[PYTHON](Solution.py) <br />

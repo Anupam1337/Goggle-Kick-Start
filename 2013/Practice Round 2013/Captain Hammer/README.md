@@ -3,6 +3,6 @@
 ## [Problem](PROBLEM.rst)
 
 ## Solution
-[CPP](Captain Hammer.cpp) <br />
-[JAVA](Captain Solution.java) <br />
-[PYTHON](Captain Hammer.py) <br />
+[CPP](Solution.cpp) <br />
+[JAVA](Solution.java) <br />
+[PYTHON](Solution.py) <br />
