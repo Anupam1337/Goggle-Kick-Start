@@ -2,6 +2,8 @@
 
 ## [Problem](PROBLEM.rst)
 
+## [Analysis](ANALYSIS.rst)
+
 ## Solution
 [CPP](Solution.cpp)
 [JAVA](Solution.java)
