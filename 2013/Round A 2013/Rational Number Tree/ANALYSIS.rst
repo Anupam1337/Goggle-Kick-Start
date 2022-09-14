@@ -1,15 +1,15 @@
 Analysis
 --------
-```
-         1/1
-    ______|______
-    |           |
-   1/2         2/1
- ___|___     ___|___
- |     |     |     |
-1/3   3/2   2/3   3/1
-...
-````
+::
+             1/1
+        ______|______
+        |           |
+       1/2         2/1
+     ___|___     ___|___
+     |     |     |     |
+    1/3   3/2   2/3   3/1
+    ...
+
 The path to the n-th element in the tree can be presented by the binary representation of n. For example, if n = 6, then its path can be represented by 110, meaning "1 (root, 1/1) => 1 (go right, 2/1) => 0 (go left, 2/3)", and we get 2/3. So to solve Q1, we at first find the binary representation of n, then goes down the tree along the path.
 
 To solve Q2, we need to find the path from p/q to 1/1. To achieve this we need to continuously subtract p from q (if q > p) or subtract q from p (if p > q). Hence, the path can be constructed by representing these two operations by 0 and 1 respectively.
