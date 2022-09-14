@@ -10,7 +10,7 @@ Consider an infinite complete binary tree where the root node is 1/1 and left an
      |     |     |     |
     1/3   3/2   2/3   3/1
     ...
-::
+
 
 | It is known that every positive rational number appears exactly once in this tree. A level-order traversal of the tree results in the following array:
 | 1/1, 1/2, 2/1, 1/3, 3/2, 2/3, 3/1, ...
