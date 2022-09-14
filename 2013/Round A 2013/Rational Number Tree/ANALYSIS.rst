@@ -18,7 +18,8 @@ To solve Q2, we need to find the path from p/q to 1/1. To achieve this we need t
 
 Code list:
 
-```import fractions
+```
+import fractions
 
 
 def Normalize(p, q):
@@ -52,4 +53,5 @@ def FindPosition(p, q):
       q -= p
       b = '0' + b
   b = '1' + b
-  return int(b, 2)```
+  return int(b, 2)
+  ```
