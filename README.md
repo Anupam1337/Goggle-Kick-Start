@@ -14,10 +14,10 @@ Previously known as Google of Greater China Test for New Grads of 2014
 
 ### [Round A](2013/Round%20A%202013)
 
-- [Cross the maze](2013/Round%20A%202013/Cross%20the%20maze)
-- [Rational Number Tree](2013/Round%20A%202013/Rational%20Number%20Tree)
-- [Read Phone Number](2013/Round%20A%202013/Read%20Phone%20Number)
 - [Sorting](2013/Round%20A%202013/Sorting)
+- [Read Phone Number](2013/Round%20A%202013/Read%20Phone%20Number)
+- [Rational Number Tree](2013/Round%20A%202013/Rational%20Number%20Tree)
+- [Cross the maze](2013/Round%20A%202013/Cross%20the%20maze)
 - [Spaceship Defence](2013/Round%20A%202013/Spaceship%20Defence)
 
 ### [Round B](2013/Round%20B%202013)
