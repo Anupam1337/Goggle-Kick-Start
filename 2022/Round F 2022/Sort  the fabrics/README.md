@@ -5,6 +5,6 @@
 ## [Analysis](ANALYSIS.rst)
 
 ## Solution
-[CPP](Solution1.cpp)
+[CPP](Solution.cpp)
 [JAVA](Solution.java)
 [PYTHON](Solution.py)
