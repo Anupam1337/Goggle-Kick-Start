@@ -15,8 +15,7 @@ Input
 The first line of input contains a single integer **T**, the number of test
 cases. Each test case starts with a line containing an integer **N**, the
 number of books on the bookshelf. The next line contains **N** integers
-separated by spaces, representing **s** \ |0|, **s**\ |1|, ..., **s**\ |N-1|,
-which are the worths of the books.
+separated by spaces, representing **s<sub>0</sub>**, **s<sub>1</sub>**, ..., **s<sub>N-1</sub>**, which are the worths of the books.
 
 Output
 ------
@@ -33,24 +32,18 @@ Limits
 | 1 ≤ **T** ≤ 30.
 
 Test set 1 - Visible
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------
 | 1 ≤ **N** ≤ 100
 | -100 ≤ **s**\ |i| ≤ 100
 
 Test set 2 - Hidden
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------
 | 1 ≤ **N** ≤ 1000
 | -1000 ≤ **s**\ |i| ≤ 1000
 
-.. |i| raw:: html
-
-    <b><sub>i</sub></b>
-
 Sample
 ------
-
-::
-
+```
     Sample Input                   Sample Output
 
     2
@@ -58,3 +51,4 @@ Sample
     5 2 4 3 1               Case #1: 1 4 2 3 5
     7                       Case #2: -5 88 11 20 2 -12 87
     -5 -12 87 2 88 20 11
+```
