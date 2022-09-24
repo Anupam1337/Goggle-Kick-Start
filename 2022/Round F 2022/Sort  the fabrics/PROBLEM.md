@@ -45,38 +45,18 @@ Test set 2 - Hidden
 Sample
 ------
 
-|sample_start|
-Sample Input\ |newline|
-3
-2
-blue 2 1
-yellow 1 2
-2
-blue 2 1
-brown 2 2
-1
-red 1 1
-|hr|\ Sample Output\ |newline|
-Case #1: 0
-Case #2: 2
-Case #3: 1\ |newline|
-|sample_end|
-
-.. |sample_start| raw:: html
-
-    <pre>
-
-.. |newline| raw:: html
-
-    <br>
-
-.. |hr| raw:: html
-
-    <hr>
-
-.. |sample_end| raw:: html
-
-    </pre>
+```
+    Sample Input            Sample Output
+    3
+    2
+    blue 2 1
+    yellow 1 2              Case #1: 0
+    2
+    blue 2 1
+    brown 2 2               Case #2: 2
+    1
+    red 1 1                 Case #2: 1
+```
 
 In Sample Case #1, when sorted by color, the order of fabrics represented by the unique identifier is 1 and 2. When sorted by durability, the order of fabrics is 2 and 1. Therefore, 0 fabrics have the same position when sorted by color or durability.
 
@@ -84,31 +64,17 @@ In Sample Case #2, when sorted by color, the order of fabrics represented by the
 
 In Sample Case #3, since there is only 1 fabric, the position remains the same whether the fabrics are sorted by color or durability.
 
-|sample_start|
-Additional Sample - Test Set 2\ |newline|
-1
-5
-blue 1 2
-green 1 4
-orange 2 5
-red 3 6
-yellow 3 7
-|hr|\ Sample Output\ |newline|
-Case #1: 5\ |newline|
-|sample_end|
+Additional Sample - Test Set 2
+The following additional sample fits the limits of Test Set 2. It will not be run against your submitted solutions.
 
-.. |sample_start| raw:: html
+```
+    Sample Input            Sample Output
+    1
+    5
+    blue 1 2
+    green 1 4
+    orange 2 5
+    red 3 6
+    yellow 3 7              Case #1: 5
 
-    <pre>
-
-.. |newline| raw:: html
-
-    <br>
-
-.. |hr| raw:: html
-
-    <hr>
-
-.. |sample_end| raw:: html
-
-    </pre>
+In Sample Case #1, the order is the same for both when sorted by color or durability. So the answer is 5.

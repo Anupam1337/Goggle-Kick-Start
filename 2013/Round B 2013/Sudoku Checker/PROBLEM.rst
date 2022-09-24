@@ -36,9 +36,7 @@ Test set 2 - Hidden
 
 Sample
 ------
-
-::
-
+```
     Sample Input                   Sample Output
 
     3
@@ -72,3 +70,4 @@ Sample
     9 6 1 5 3 7 2 8 4
     2 8 7 4 1 9 6 3 5
     3 4 5 2 8 6 1 7 92      Case #3: No
+```

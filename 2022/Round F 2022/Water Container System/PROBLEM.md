@@ -52,33 +52,58 @@ Time limit: 60 seconds.
 Sample
 ------
 *Note: there are additional samples that are not run on submissions down below.*
-|sample_start|
-Sample Input\ |newline|
-2
-1 1
-1
-3 2
-1 2
-1 3
-1
-2
-|hr|\ Sample Output\ |newline|
-Case #1: 1
-Case #2: 1\ |newline|
-|sample_end|
 
-.. |sample_start| raw:: html
+```
+    Sample Input            Sample Output
 
-    <pre>
+    2
+    1 1
+    1                       Case #1: 1
+    3 2
+    1 2
+    1 3
+    1
+    2                       Case #2: 1
+```
 
-.. |newline| raw:: html
+In Sample Case #1, there is **N = 1** water container. The number of completely filled water containers after adding 1 liter of water in container 1 is 1.
 
-    <br>
+In Sample Case #2, there are **N = 3** water containers. The number of completely filled water containers after processing all the queries is 1.
 
-.. |hr| raw:: html
+![Image describing the flow of water in the test set 1](https://codejam.googleapis.com/dashboard/get_file/AQj_6U1U2F_3zn4psJQHfE1ejPjCFRgYj6Vboda0wmzE3W9F2RWMAXpsNnnqe3JXO1VsHfmswE23X4JFi_vIxSHng1LtDTPkYskl/water_container_sample_test_1.png)
 
-    <hr>
+After adding 1 liter of water in container 1: container 1 is completely filled, and the remaining containers are empty.
+After adding 1 liter of water in container 2: container 1 is completely filled, and containers 2 and 3 are partially filled.
 
-.. |sample_end| raw:: html
 
-    </pre>
+Additional Sample - Test Set 2
+------------------------------
+*The following additional sample fits the limits of Test Set 2. It will not be run against your submitted solutions.*
+```
+    Sample Input            Sample Output
+    2
+    4 4
+    1 2
+    1 3
+    2 4
+    3
+    3
+    3
+    3                       Case #1: 4
+    5 2
+    1 2
+    5 3
+    3 1
+    2 4
+    4
+    5                       Case #2: 1
+```
+
+In Sample Case #1, there are **N = 4** water containers. The number of completely filled water containers after processing all the queries is 4, which is already explained in the problem statement.
+
+In Sample Case #2, there are **N = 5** water containers. The number of completely filled water containers after processing all the queries is 1.
+
+![Image describing the flow of water in the test set 2](https://codejam.googleapis.com/dashboard/get_file/AQj_6U0f9MnQPElGutpeg62DjKCEeQ19Ksup-01bYmWMiat_5gOKiCJ4ts69iO3SsCI_niJrsbbewayd8ykqomzLrkkLlbcwYTU8/water_container_sample_test_2.png)
+
+After adding 1 liter of water in container 4: container 1 is completely filled, and the remaining containers are empty.
+After adding 1 liter of water in container 5: container 1 is completely filled, containers 2 and 3 are partially filled, and the remaining containers are empty.
