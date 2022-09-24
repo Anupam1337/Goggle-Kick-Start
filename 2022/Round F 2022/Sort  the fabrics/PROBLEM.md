@@ -65,6 +65,7 @@ In Sample Case #2, when sorted by color, the order of fabrics represented by the
 In Sample Case #3, since there is only 1 fabric, the position remains the same whether the fabrics are sorted by color or durability.
 
 Additional Sample - Test Set 2
+------------------------------
 The following additional sample fits the limits of Test Set 2. It will not be run against your submitted solutions.
 
 ```
@@ -76,5 +77,5 @@ The following additional sample fits the limits of Test Set 2. It will not be ru
     orange 2 5
     red 3 6
     yellow 3 7              Case #1: 5
-
+```
 In Sample Case #1, the order is the same for both when sorted by color or durability. So the answer is 5.
