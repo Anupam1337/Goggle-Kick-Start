@@ -1,4 +1,4 @@
-![kick start](https://github.com/Anupam1337/Goggle-Kick-Start/blob/main/logo.jfif)
+![kick start](kick%20start.jpg)
 
 # [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart)
 
