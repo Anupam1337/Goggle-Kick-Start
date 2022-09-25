@@ -30,26 +30,27 @@ Limits
 Time limit: 30 seconds per test set.
 Memory limit: 1GB.
 
-1 ≤ **S** ≤ 100.
-1 ≤ **a<sub>i</sub>**, **b<sub>i</sub>** ≤ **N**.
-0 ≤ **t<sub>i</sub>** ≤ 1000.
-1 ≤ **p<sub>j</sub>**, **q<sub>j</sub>** ≤ **N**.
+1 ≤ **S** ≤ 100.__
+1 ≤ **a<sub>i</sub>**, **b<sub>i</sub>** ≤ **N**.__
+0 ≤ **t<sub>i</sub>** ≤ 1000.__
+1 ≤ **p<sub>j</sub>**, **q<sub>j</sub>** ≤ **N**.__
 
 Test set 1 - Visible
 --------------------
-1 ≤ **T** ≤ 10.
-1 ≤ **N** ≤ 1000.
-0 ≤ **M** ≤ 3000.
+1 ≤ **T** ≤ 10.__
+1 ≤ **N** ≤ 1000.__
+0 ≤ **M** ≤ 3000.__
 
 Test set 2 - Hidden
 -------------------
-**T** = 1.
-1 ≤ **N** ≤ 80000.
-0 ≤ **M** ≤ 3000.
+**T** = 1.__
+1 ≤ **N** ≤ 80000.__
+0 ≤ **M** ≤ 3000.__
 
-# Sample
---------
-### Sample Input
+Sample
+===
+Sample Input
+---
 ```
 3
 3
@@ -95,9 +96,9 @@ b7
 2 6
 1 4
 ```
-### Sample Output
-
-``
+Sample Output
+---
+```
 Case #1:
 -1
 0
