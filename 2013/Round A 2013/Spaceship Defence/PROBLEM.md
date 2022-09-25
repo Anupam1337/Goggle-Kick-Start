@@ -7,10 +7,12 @@ Teleporters allow your soldiers to move instantly between rooms. Every room cont
 Turbolifts allow your soldiers to move between rooms more slowly. A turbolift is like an elevator that moves in many directions. Each turbolift moves from one room to one other room, and it takes a certain amount of time to travel. Notes about turbolifts:
 
 * Turbolifts are not two-way: if a turbolift moves soldiers from room a to room b, the same turbolift cannot move soldiers from room b to room a, although there might be another turbolift that does that.
-More than one soldier can use the same turbolift, and they do not interfere with each other in any way.
-* You will be given the locations and destinations of several soldiers. For each soldier, output the minimum amount of time it could take that soldier to travel from his location to his destination.
+* More than one soldier can use the same turbolift, and they do not interfere with each other in any way.
+
+You will be given the locations and destinations of several soldiers. For each soldier, output the minimum amount of time it could take that soldier to travel from his location to his destination.
 
 Input
+===
 The first line of the input gives the number of test cases, **T**. **T** test cases follow.
 
 For every test case:
@@ -36,13 +38,13 @@ Memory limit: 1GB.
 1 ≤ **p<sub>j</sub>**, **q<sub>j</sub>** ≤ **N**.<br />
 
 Test set 1 - Visible
----
+===
 1 ≤ **T** ≤ 10.<br />
 1 ≤ **N** ≤ 1000.<br />
 0 ≤ **M** ≤ 3000.<br />
 
 Test set 2 - Hidden
----
+===
 **T** = 1.<br />
 1 ≤ **N** ≤ 80000.<br />
 0 ≤ **M** ≤ 3000.<br />

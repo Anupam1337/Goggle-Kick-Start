@@ -22,7 +22,7 @@ Limits
 ===
 Time limit: 30 seconds per test set.<br />
 Memory limit: 1GB.<br />
-1 ≤ T ≤ 30.
+1 ≤ **T** ≤ 30.
 
 Test set 1 - Visible
 ===
