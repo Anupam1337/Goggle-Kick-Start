@@ -29,17 +29,15 @@ public class Solution {
                     mp.put(Sudoku[i][j], 1);
                 }
             }
-            for(int i = 0; (f == 1) && (i < N); i++) {
-                for(int j = 0; (f == 1) && (j < N); j++) {
-                    Map<Integer, Integer> mp = new HashMap<Integer, Integer>();
-                    for(int k = 0; (f == 1) && (k < N); k++) {
-                        for(int l = 0; (f == 1) && (l < N); l++) {
-                            if((Sudoku[k][l] < 1) || (Sudoku[k][l] > (N * N)) || (mp.get(Sudoku[k][l]) != null)) {
-                                y = "No";
-                                f = 0;
-                            }
-                            mp.put(Sudoku[k][l], 1);
+            for(int k = 0; (f == 1) && (k < N); k++) {
+                Map<Integer, Integer> mp = new HashMap<Integer, Integer>();
+                for(int i = 0; (f == 1) && (i < N); i++) {
+                    for(int j = 0; (f == 1) && (j < N); j++) {
+                        if((Sudoku[i][j] < 1) || (Sudoku[i][j] > (N * N)) || (mp.get(Sudoku[i][j]) != null)) {
+                            y = "No";
+                            f = 0;
                         }
+                        mp.put(Sudoku[i][j], 1);
                     }
                 }
             }

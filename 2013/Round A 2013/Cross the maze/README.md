@@ -1,11 +1,10 @@
 # [Cross the maze](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ba1/00000000004347b2)
 
-## [Problem](PROBLEM.rst)
+## [Problem](PROBLEM.md)
 
-## [Analysis](ANALYSIS.rst)
+## [Analysis](ANALYSIS.md)
 
 ## Solution
-[CPP Solution 1](Solution1.cpp)
-[CPP Solution 2](Solution2.cpp)
-[JAVA](Solution.java)
+[CPP Solution](Solution.cpp)<br />
+[JAVA](Solution.java)<br />
 [PYTHON](Solution.py)

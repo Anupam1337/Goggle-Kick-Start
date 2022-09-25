@@ -1,5 +1,5 @@
 Analysis
---------
+---
 For each query:
 
 We can consider there are edges with weight 0 between every two nodes with same color.

@@ -1,6 +1,6 @@
 Problem
--------
-There is a water container system with **N** identical containers, which can be represented as a tree, where each container is a vertex. The containers are connected to each other with ***N − 1*** bidirectional pipes. Two containers connected to each other are always placed on adjacent levels. Formally, if two containers a and b are connected to each other, then *|level<sub>a</sub> − level<sub>b</sub>|*=1. Container 1 is placed at the bottommost level. Each container is connected to exactly one container on the level below (the only exception is container 1, which has no connections below it), but can be connected to zero or more containers on the level above. The maximum capacity of each container is 1 liter, and initially all the containers are empty. Assume that the pipe has a capacity of 0 liters. In other words, they do not store any water, but only allow water to pass through them in any direction.
+===
+There is a water container system with **N** identical containers, which can be represented as a tree, where each container is a vertex. The containers are connected to each other with ***N − 1*** bidirectional pipes. Two containers connected to each other are always placed on adjacent levels. Formally, if two containers a and b are connected to each other, then _|level<sub>a</sub> − level<sub>b</sub>|_=1. Container 1 is placed at the bottommost level. Each container is connected to exactly one container on the level below (the only exception is container 1, which has no connections below it), but can be connected to zero or more containers on the level above. The maximum capacity of each container is 1 liter, and initially all the containers are empty. Assume that the pipe has a capacity of 0 liters. In other words, they do not store any water, but only allow water to pass through them in any direction.
 
 Consider the following diagram which is an example of a water container system:
 
@@ -21,51 +21,57 @@ In step 4, after adding 1 liter of water in container 3, the water is pushed up 
 As illustrated in the example above, containers at the same level will have the same amount of water. Find the number of water containers that are completely filled after processing all the queries.
 
 Input
------
-The first line of the input gives the number of test cases, **T**. **T** test cases follow.
-The first line of each test case contains the two integers **N** and **Q**, where **N** is the number of containers and **Q** is the number of queries.
-The next **N − 1** lines contain two integers i and j (1 ≤ i,j ≤ **N**, and i ≠ j) meaning that the i-th water container is connected to the j-th water container.
+===
+The first line of the input gives the number of test cases, **T**. **T** test cases follow.<br />
+The first line of each test case contains the two integers **N** and **Q**, where **N** is the number of containers and **Q** is the number of queries.<br />
+The next **N − 1** lines contain two integers i and j (1 ≤ _i_,_j_ ≤ **N**, and _i_ ≠ _j_) meaning that the _i_-th water container is connected to the j-th water container.<br />
 Each of the next **Q** lines contain a single integer i (1 ≤ i ≤ **N**) that represents the container to which 1 liter of water should be added.
 
 Output
-------
-For each test case, output one line containing *Case #x: y*, where x is the test case number (starting from 1) and y is the number of water containers that are completely filled after processing all the queries.
+===
+For each test case, output one line containing _Case #x: y_, where _x_ is the test case number (starting from 1) and _y_ is the number of water containers that are completely filled after processing all the queries.
 
 Limits
-------
-Memory limit: 1 GB.
-1 ≤ **T** ≤ 100.
-1 ≤ **Q** ≤ N.
+===
+Memory limit: 1 GB.<br />
+1 ≤ **T** ≤ 100.<br />
+1 ≤ **Q** ≤ N.<br />
 It is guaranteed that the given water container system is a tree.
 
 Test Set 1
-----------
-Time limit: 20 seconds.
-1 ≤ **N** ≤ 65535.
+===
+Time limit: 20 seconds.<br />
+1 ≤ **N** ≤ 65535.<br />
 The water container system is a [perfect binary tree](https://en.wikipedia.org/w/index.php?title=Binary_tree#Types_of_binary_trees).
 
 Test Set 2
-Time limit: 60 seconds.
+===
+Time limit: 60 seconds.<br />
 1 ≤ **N** ≤ 10<sup>4</sup>.
 
 
 Sample
-------
-*Note: there are additional samples that are not run on submissions down below.*
+===
+_Note: there are additional samples that are not run on submissions down below._
 
+Sample Input
+---
 ```
-    Sample Input            Sample Output
-
-    2
-    1 1
-    1                       Case #1: 1
-    3 2
-    1 2
-    1 3
-    1
-    2                       Case #2: 1
+2
+1 1
+1
+3 2
+1 2
+1 3
+1
+2
 ```
-
+Sample Output
+---
+```
+Case #1: 1
+Case #2: 1
+```
 In Sample Case #1, there is **N = 1** water container. The number of completely filled water containers after adding 1 liter of water in container 1 is 1.
 
 In Sample Case #2, there are **N = 3** water containers. The number of completely filled water containers after processing all the queries is 1.
@@ -77,26 +83,33 @@ After adding 1 liter of water in container 2: container 1 is completely filled, 
 
 
 Additional Sample - Test Set 2
-------------------------------
-*The following additional sample fits the limits of Test Set 2. It will not be run against your submitted solutions.*
+===
+_The following additional sample fits the limits of Test Set 2. It will not be run against your submitted solutions._
+Sample Input
+---
 ```
-    Sample Input            Sample Output
-    2
-    4 4
-    1 2
-    1 3
-    2 4
-    3
-    3
-    3
-    3                       Case #1: 4
-    5 2
-    1 2
-    5 3
-    3 1
-    2 4
-    4
-    5                       Case #2: 1
+2
+4 4
+1 2
+1 3
+2 4
+3
+3
+3
+3
+5 2
+1 2
+5 3
+3 1
+2 4
+4
+5
+```
+Sample Output
+---
+```
+Case #1: 4
+Case #2: 1
 ```
 
 In Sample Case #1, there are **N = 4** water containers. The number of completely filled water containers after processing all the queries is 4, which is already explained in the problem statement.

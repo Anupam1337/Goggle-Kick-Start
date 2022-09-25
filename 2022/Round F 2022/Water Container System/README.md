@@ -1,8 +1,8 @@
 # [Water Container System](https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000bef79e)
 
-## [Problem](PROBLEM.rst)
+## [Problem](PROBLEM.md)
 
-## [Analysis](ANALYSIS.rst)
+## [Analysis](ANALYSIS.md)
 
 ## Solution
 [CPP](Solution.cpp)

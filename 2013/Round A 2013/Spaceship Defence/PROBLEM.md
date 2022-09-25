@@ -1,5 +1,5 @@
 Problem
--------
+===
 The enemy has invaded your spaceship, and only superior tactics will allow you to defend it! To travel around your spaceship, your soldiers will use two devices: teleporters and turbolifts.
 
 Teleporters allow your soldiers to move instantly between rooms. Every room contains a teleporter, and rooms are color-coded: if a soldier is in a room with some color, she can use the teleporter in that room to immediately move to any other room with the same color.
@@ -22,11 +22,11 @@ The next line in the test case is an integer **M**, which indicates the number o
 The next line in the test case contains an integer **S**, which is the number of soldiers at your command. The following S lines each contain two integers: the location and destination of one soldier, **p<sub>j</sub>** and **q<sub>j</sub>**.
 
 Output
-------
+===
 For each test case, output one line containing only the string "Case #x:", where x is the number of the test case (starting from 1). On the next **S** lines, output a single integer: on line **j**, the smallest number of seconds it could take for a soldier to travel from **p<sub>j</sub>** to **q<sub>j</sub>**. If there is no path from **p<sub>j</sub>** to **q<sub>j</sub>**, the integer you output should be -1.
 
 Limits
-------
+===
 Time limit: 30 seconds per test set.
 Memory limit: 1GB.
 
@@ -36,13 +36,13 @@ Memory limit: 1GB.
 1 ≤ **p<sub>j</sub>**, **q<sub>j</sub>** ≤ **N**.<br />
 
 Test set 1 - Visible
---------------------
+---
 1 ≤ **T** ≤ 10.<br />
 1 ≤ **N** ≤ 1000.<br />
 0 ≤ **M** ≤ 3000.<br />
 
 Test set 2 - Hidden
--------------------
+---
 **T** = 1.<br />
 1 ≤ **N** ≤ 80000.<br />
 0 ≤ **M** ≤ 3000.<br />

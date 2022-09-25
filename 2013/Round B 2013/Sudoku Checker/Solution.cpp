@@ -28,17 +28,15 @@ int main() {
                 mp2[A[j][i]] = 1;
             }
         }
-        for(int i = 0; (f == 1) && (i < N); i++) {
-            for(int j = 0; (f == 1) && (j < N); j++) {
-                map<int, int> mp;
-                for(int i = 0; (f == 1) && (i < N); i++) {
-                    for(int j = 0; (f == 1) && (j < N); j++) {
-                        if((A[i][j] < 1) || (A[i][j] > (N * N)) || (mp[A[i][j]] == 1)) {
-                            y = "No";
-                            f = 0;
-                        }
-                        mp[A[i][j]] = 1;
+        for(int k = 0; (f == 1) && (k < N); k++) {
+            map<int, int> mp;
+            for(int i = 0; (f == 1) && (i < N); i++) {
+                for(int j = 0; (f == 1) && (j < N); j++) {
+                    if((A[i][j] < 1) || (A[i][j] > (N * N)) || (mp[A[i][j]] == 1)) {
+                        y = "No";
+                        f = 0;
                     }
+                    mp[A[i][j]] = 1;
                 }
             }
         }

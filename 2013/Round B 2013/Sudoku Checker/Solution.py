@@ -23,18 +23,15 @@ for x in range(1, T + 1):
                 break
     
     if flag:
-        for i in range(0, N):
-            for j in range(0, N):
-                block = []
-                for k in range(0, N):
-                    for l in range(0, N):
-                        block.append(sudoku[(i * N) + k][(j * N) + l])
-                
-                if set(block) != values:
-                    flag = False
-                    y = "No"
-                    break
-            if flag == False:
+        for k in range(0, N):
+            block = []
+            for i in range(0, N):
+                for j in range(0, N):
+                    block.append(sudoku[i][j])
+            
+            if set(block) != values:
+                flag = False
+                y = "No"
                 break
     
     print(f"Case #{x}: {y}")
