@@ -42,16 +42,16 @@ char:
   digits
   punctuations
   whitespaces
-Our pre-processor, given a text, removes all comment-block instances as specified.
+  ```
+Our pre-processor, given a **text**, removes all **comment-block** instances as specified.
 
 Notes
-Igor only needs to remove the comment in one pass. He doesn't remove additional comment blocks created as a result of the removal of any comment block. For example:
-//*no recursion*/* file header */
-should generate:
-/* file header */
-```
-
-The * character in any /* or /*cannot be re-used in another /* or */. For example the following does **NOT** form a proper comment block
+===
+* Igor only needs to remove the comment in one pass. He doesn't remove additional comment blocks created as a result of the removal of any comment block. For example:<br />
+`//*no recursion*/* file header */`
+should generate:<br />
+`/* file header */`<br />
+* The * character in any /* or /*cannot be re-used in another /* or */. For example the following does **NOT** form a proper comment block
 /*/
 
 Input
