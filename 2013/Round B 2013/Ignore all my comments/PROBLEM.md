@@ -1,4 +1,5 @@
 Problem
+===
 Good programmers write fabulous comments. Igor is a programmer and he likes the old C-style comments in /* ... */ blocks. For him, it would be ideal if he could use this style as a uniform comment format for all programming languages or even documents, for example Python, Haskell or HTML/XML documents.
 
 Making this happen doesn't seem too difficult to Igor. What he will need is a comment pre-processor that removes all the comment blocks in /*, followed by comment text, and by another */. Then the processed text can be handed over to the compiler/document renderer to which it belongs—whatever it is.

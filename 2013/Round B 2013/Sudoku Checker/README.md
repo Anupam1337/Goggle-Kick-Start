@@ -7,4 +7,4 @@
 ## Solution
 [CPP](Solution.cpp)<br />
 [JAVA](Solution.java)<br />
-[PYTHON](Solution.py)<br />
+[PYTHON](Solution.py)

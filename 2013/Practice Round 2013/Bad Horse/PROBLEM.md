@@ -17,7 +17,7 @@ Memory limit: 1 GB.<br />
 Each member name will consist of only letters and the underscore character.<br />
 Names are case-sensitive.<br />
 No pair will appear more than once in the same test case.<br />
-Each pair will contain two distinct League members.<br />
+Each pair will contain two distinct League members.
 
 Small dataset
 ===
