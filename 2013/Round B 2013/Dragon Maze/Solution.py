@@ -6,12 +6,17 @@ def isValid(x, y):
 
 def BFS():
     qu = [[enx, eny]]
-    R = maze
-    V = [[False] * M] * N
+    V = []
+    R = []
     for i in range(0, N):
+        R.append(maze[i][:])
+        row = []
         for j in range(0, M):
             if maze[i][j] == -1:
-                V[i][j] = True
+                row.append(True)
+            else:
+                row.append(False)
+        V.append(row)
     
     V[enx][eny] = True
     while(len(qu) > 0):
@@ -50,8 +55,7 @@ def BFS():
                 if V[x][y + 1] == False:
                     V[x][y + 1] = True
                     temp.append([x, y + 1])
-        
-        qu = temp
+        qu = temp[:]
 
     return "Mission Impossible."
 
