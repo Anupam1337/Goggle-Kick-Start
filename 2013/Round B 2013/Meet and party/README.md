@@ -5,6 +5,6 @@
 ## [Analysis](ANALYSIS.md)
 
 ## Solution
-[CPP](Solution.cpp)<br />
+[CPP(Partial)](Solution.cpp)<br />
 [JAVA](Solution.java)<br />
 [PYTHON](Solution.py)
