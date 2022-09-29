@@ -1,3 +1,7 @@
+import sys
+# Recursion limit for python is 1500
+sys.setrecursionlimit(2000)
+
 T = int(input())
 
 def getBlue(i, N, S):
@@ -30,35 +34,34 @@ def getBlue(i, N, S):
     return getBlue(i + 1, N, S)
 
 def getRed(j, N, S):
-    if(j == N):
+    if j == N:
         return 0
-    if(S[0][j] != 'R'):
+
+    if S[0][j] != 'R':
         return getRed(j + 1, N, S)
 
     st = []
     st.append([0, j])
     while(len(st) > 0):
-        p = st[len(st) - 1]
-        st.pop()
+        p = st.pop()
         i = p[0]
-        k = [1]
+        k = p[1]
         S[i][k] = '.'
-        if(i == (N - 1)):
+        if i == N - 1:
             return 1 + getRed(j + 1, N, S)
 
         if((i > 0) and (k < (N - 1)) and (S[i - 1][k + 1] == 'R')):
-            st.append[i - 1][k + 1]
+            st.append([i - 1, k + 1])
         if((i > 0) and (S[i - 1][k] == 'R')):
-            st.append[i - 1][k]
+            st.append([i - 1, k])
         if((k < (N - 1)) and (S[i][k + 1] == 'R')):
-            st.append[i][k + 1]
+            st.append([i, k + 1])
         if((k > 0) and (S[i][k - 1] == 'R')):
-            st.append[i][k - 1]
+            st.append([i, k - 1])
         if((i < (N - 1)) and (S[i + 1][k] == 'R')):
-            st.append[i + 1][k]
+            st.append([i + 1, k])
         if((i < (N - 1)) and (k > 0) and (S[i + 1][k - 1] == 'R')):
-            st.append[i + 1][k - 1]
-
+            st.append([i + 1, k - 1])
     return getRed(i + 1, N, S)
 
 for x in range(1, T + 1):
@@ -75,6 +78,8 @@ for x in range(1, T + 1):
         for j in range(0, N):
             if board[i][j] == 'B':
                 B += 1
+            elif board[i][j] == 'R':
+                R += 1
 
     Bl = getBlue(0, N, board)
     Rl = getRed(0, N, board)
