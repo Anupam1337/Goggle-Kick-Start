@@ -18,6 +18,80 @@ int main() {
         }
 
         vector<vector<int> > y(N, vector<int>(N, 0));
+
+        if(DIR == "left") {
+            for(int i = 0; i < N; i++) {
+                int s = 0, k = 0;
+                for(int j = 0; j < N; j++) {
+                    if(board[i][j] == 0) continue;
+                    if(s == 0) {
+                        y[i][k++] = board[i][j];
+                        s = 1;
+                    } else {
+                        if(y[i][k - 1] == board[i][j]) {
+                            y[i][k - 1] += board[i][j];
+                            s = 0;
+                        } else {
+                            y[i][k++] = board[i][j];
+                        }
+                    }
+                }
+            }
+        } else if(DIR == "right") {
+            for(int i = 0; i < N; i++) {
+                int s = 0, k = N - 1;
+                for(int j = N - 1; j >= 0; j--) {
+                    if(board[i][j] == 0) continue;
+                    if(s == 0) {
+                        y[i][k--] = board[i][j];
+                        s = 1;
+                    } else {
+                        if(y[i][k + 1] == board[i][j]) {
+                            y[i][k + 1] += board[i][j];
+                            s = 0;
+                        } else {
+                            y[i][k--] = board[i][j];
+                        }
+                    }
+                }
+            }
+        } else if(DIR == "up") {
+            for(int i = 0; i < N; i++) {
+                int s = 0, k = 0;
+                for(int j = 0; j < N; j++) {
+                    if(board[j][i] == 0) continue;
+                    if(s == 0) {
+                        y[k++][i] = board[j][i];
+                        s = 1;
+                    } else {
+                        if(y[k - 1][i] == board[j][i]) {
+                            y[k - 1][i] += board[j][i];
+                            s = 0;
+                        } else {
+                            y[k++][i] = board[j][i];
+                        }
+                    }
+                }
+            }
+        } else if(DIR == "down") {
+            for(int i = 0; i < N; i++) {
+                int s = 0, k = N - 1;
+                for(int j = N - 1; j >= 0; j--) {
+                    if(board[j][i] == 0) continue;
+                    if(s == 0) {
+                        y[k--][i] = board[j][i];
+                        s = 1;
+                    } else {
+                        if(y[k + 1][i] == board[j][i]) {
+                            y[k + 1][i] += board[j][i];
+                            s = 0;
+                        } else {
+                            y[k--][i] = board[j][i];
+                        }
+                    }
+                }
+            }
+        }
         cout << "Case #" << x << ":" << endl;
         for(int i = 0; i < N; i++) {
             for(int j = 0; j < N; j++) {
