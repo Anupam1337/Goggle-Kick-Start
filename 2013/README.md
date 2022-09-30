@@ -2,20 +2,7 @@
 
 # [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart)
 
-## [2014](/2014)
-
-_Previously known as APAC 2014 University Graduates Test_
-
-Kick Start began for coders in the Asia-Pacific region. The contest had four rounds, a total of 16 problems, and over 5000 participants.
-
-### [Round A 2014](/2014/Round%20A%202014)
-
-* [Super 2048](/2014/Round%20A%202014/Super%202048)
-* [Seven-segment Display](/2014/Round%20A%202014/Seven-segment%20Display)
-* [Cut Tiles](/2014/Round%20A%202014/Cut%20Tiles)
-* [Addition](/2014/Round%20A%202014/Addition)
-
-## [2013](/2013)
+## [2013](https://codingcompetitions.withgoogle.com/kickstart/archive/2013)
 
 _Previously known as Google of Greater China Test for New Grads of 2014_
 
