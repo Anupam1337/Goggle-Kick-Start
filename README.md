@@ -2,6 +2,14 @@
 
 # [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart)
 
+Kick Start is a global online coding competition, consisting of three-hour rounds of a variety of algorithmic challenges designed by Google engineers. Participants can compete in one or all online rounds held throughout the year, and will have the opportunity to develop and grow their programming abilities while getting a glimpse into the technical skills needed for a career at Google (top participants may be invited to interview at Google).
+
+# Year wise List
+* [2013](/2013)
+* [2014](/2014)
+* [2022](/2022)
+
+# Detailed List
 ## [2014](/2014)
 
 _Previously known as APAC 2014 University Graduates Test_
