@@ -10,6 +10,12 @@ Kick Start is a global online coding competition, consisting of three-hour round
 * [2022](/2022)
 
 # Detailed List
+## [2022](/2022)
+### [Round F 2022](/2022/Round%20F%202022)
+
+* [Sort the fabrics](/2022/Round%20F%202022/Sort%20%20the%20fabrics)
+* [Water Container System](/2022/Round%20F%202022/Water%20Container%20System)
+
 ## [2014](/2014)
 
 _Previously known as APAC 2014 University Graduates Test_
