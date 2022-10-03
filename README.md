@@ -1,3 +1,5 @@
+[![kick start](logo.png)](https://g.co/kickstart)
+
 [![kick start](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200908225219/What-is-Google-Kick-Start-Important-Dates-Eligibility-Contest-Details.png)](https://g.co/kickstart)
 
 # [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart)
