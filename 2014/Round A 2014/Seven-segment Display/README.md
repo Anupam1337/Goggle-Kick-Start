@@ -14,7 +14,7 @@
 <details>
 <summary>Hint 1</summary>
 <br />
-* Question is not asking next number, but asking next display, i.e, LEDs that are turned on in (N + 1)th step.
+* Question is not asking next number, but asking next display, i.e, status of each LED(0/1) in (N + 1)th step.
 </details>
 
 <details>
