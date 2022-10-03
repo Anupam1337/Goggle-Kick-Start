@@ -1,4 +1,4 @@
-[![kick start](logo.png)](https://g.co/kickstart)
+![kick start](logo.png)](https://g.co/kickstart)
 
 [![kick start](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200908225219/What-is-Google-Kick-Start-Important-Dates-Eligibility-Contest-Details.png)](https://g.co/kickstart)
 
@@ -47,12 +47,12 @@ _Previously known as Google of Greater China Test for New Grads of 2014_
 * [Read Phone Number](/2013/Round%20A%202013/Read%20Phone%20Number)
 * [Rational Number Tree](/2013/Round%20A%202013/Rational%20Number%20Tree)
 * [Cross the maze](/2013/Round%20A%202013/Cross%20the%20maze)
-* [Spaceship Defence](/2013/Round%20A%202013/Spaceship%20Defence)
+* [Spaceship Defence](/2013/Round%20A%202013/Spaceship%20Defence) (Only C++ Solution)
 
 ### [Round B](/2013/Round%20B%202013)
 
 * [Sudoku Checker](/2013/Round%20B%202013/Sudoku%20Checker)
 * [Ignore all my comments](/2013/Round%20B%202013/Ignore%20all%20my%20comments)
 * [Dragon Maze](/2013/Round%20B%202013/Dragon%20Maze)
-* [Meet and party](/2013/Round%20B%202013/Meet%20and%20party)
+* [Meet and party](/2013/Round%20B%202013/Meet%20and%20party) (Partial Solved)
 * [Hex](/2013/Round%20B%202013/Hex)
