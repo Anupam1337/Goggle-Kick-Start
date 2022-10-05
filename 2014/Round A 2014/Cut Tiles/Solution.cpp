@@ -33,7 +33,6 @@ int main() {
                     if(st[j].first < required[i]) continue;
                     pair<ll, ll> p = st[j];
                     st.erase(st.begin() + j);
-                    j--;
                     if(p.first == required[i]) {
                         if(p.second > required[i]) {
                             st.push_back(make_pair(min(p.second - p.first, p.first), max(p.second - p.first, p.first)));
@@ -49,7 +48,6 @@ int main() {
                     sort(st.begin(), st.end());
                     break;
                 }
-                // for(int j = 0; j < st.size(); j++) cout << st[j].first << " " << st[j].second << endl;
             }
             st = vector<pair<ll, ll> >();
         }
